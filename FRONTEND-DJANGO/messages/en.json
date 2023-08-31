@@ -4,8 +4,12 @@
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "AboutPage": {
-    "title": "Hakkımızda",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/tr/about</code>).</p>"
+    "title": "About",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "PostPage": {
+    "title": "Yazılar",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
   },
   "Error": {
     "title": "Something went wrong!",
@@ -23,18 +27,19 @@
     "locale": "{locale, select, tr {Turkish} en {English} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Anasayfa",
-    "about": "Hakkımızda"
+    "home": "Home",
+    "about": "About",
+    "posts": "Posts"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "title": "Döküman",
+        "title": "Docs",
         "description": "Learn more about next-intl in the official docs.",
         "href": "https://next-intl-docs.vercel.app/"
       },
       "source": {
-        "title": "Kaynak kodu",
+        "title": "Source code",
         "description": "Browse the source code of this example on GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
       }
